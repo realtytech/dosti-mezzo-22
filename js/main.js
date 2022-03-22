@@ -633,6 +633,8 @@ lazyloadImages.forEach(function (img) {
 
 document.addEventListener("DOMContentLoaded", function () {
     var lazyloadImages = document.querySelectorAll("img.lazy");
+    // var mapHtml = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15089.64236295915!2d72.8125047290565!3d19.001620694088615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cec2dc78a2b3%3A0x8af2cd111e78da9e!2sLodha%20World%20Towers!5e0!3m2!1sen!2sin!4v1647544057161!5m2!1sen!2sin" width="100%" height="678" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`;
+    // if(!isMobileTablet())  document.getElementById('map').innerHTML(mapHtml);
     var lazyloadThrottleTimeout;
 
     function lazyload() {
