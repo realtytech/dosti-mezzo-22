@@ -488,7 +488,7 @@ function storeLeadInDB(name, email, mobile, response, formName) {
     var srd = queryParameter('srd', currentUrl);
 
 
-    var project = 'Dosti Realty - Eastern Bay';
+    var project = 'Dosti Realty - Mezzo 22';
     var timestamp = Date();
     data = {
         "formId": String(Math.floor(Date.now() / 1000)),
